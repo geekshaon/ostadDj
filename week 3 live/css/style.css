@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+}
+.menu-link{
+    display: flex;
+    
+}
+.menu h2{
+    color:aliceblue
+}
+.menu ul li{
+    display: inline;
+    text-decoration: none;
+}
+.menu-link a{
+    font-family: "Playfair Display", serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu-link button{
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.cart-container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.summery-info{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-right{
+    background: #FAFAF5  ;
+    border: 1px solid #ccccb5;
+    padding: 40px;
+    border-radius: 20px ;
+}
+.summery-info h6{
+    font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        padding: 10px 0px;
+        margin: 0;
+}
+.cart-right button{
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    
+    background: #426B1F;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.product-list{
+    font-family: "Roboto", sans-serif ;
+    padding-right: 40px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background: #FAFAF5;
+    border: 1px solid #ccccb5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.proimg{
+    display: flex;
+    align-items: center;
+}
+.proimg img{
+    padding: 20px;
+    margin-right: 20px;
+}
+.cart-right h2{
+    font-family: "Playfair Display", serif;
+}
+.product-des p{
+    color:#426B1F;
+}
